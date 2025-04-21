@@ -1,0 +1,127 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background:none;
+    /* Added these temp, they were in interface */
+    /* width: 482px;
+    height: 384px; */
+    width: 482px;
+    height: 348px;
+}
+  
+/* apparently cant make background completely transparent */
+.interface {
+    width: 100%;
+    height: 100%;
+    background:none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: rgba(189, 14, 14, 0.01);
+} 
+
+/* Should be fine */
+.mainFrame{
+    /* width: 482px;
+    height: 348px; */
+    width:100%;
+    height:100%;
+    /* flex-shrink: 0; */
+    border-radius: 10px;
+    background: conic-gradient(from 140deg at -15% 50%, #393295 54.00000214576721deg, #9992FD 133.20000171661377deg, #C6C2FF 201.60000085830688deg, #393295 360deg);
+    position:absolute;
+    /* top: 18px; */
+}
+
+/* I'm not adding these yet actually, too complex imo */
+.grabFrame{
+    display: inline-flex;
+    height: 100%;
+    width:20px;
+    /* padding: 0px 4px 0px 5px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background:rgba(0, 0, 0, 0.5);
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* .exitBtn{
+    display: flex;
+    padding: 1px;
+    width: 15px;
+    height: 15px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: left;
+    font-family: Hubballi;
+    font-size: 20px;
+    font-style: normal;
+    background:#393295;
+    position: absolute;
+    top: 2px;
+    left: 462px;
+        opacity: 0;
+    transition: opacity 0.2s;
+
+} */
+
+/* .interface:hover .exitBtn {
+opacity: 1;
+} */
+  
+
+
+.infoFrame{
+    width: 431px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    position:absolute;
+    top: 72px;
+    left: 21px;
+}
+
+.downloadFrame{
+    display: flex;
+    width: 439px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.80);
+    position:absolute;
+    top:314px;
+    left: 21px;
+
+}
+
+.title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;   
+    /* Added for position */
+    position: absolute;
+    top: 13px;
+    left: 67px;
+     
+}
+
+.logo{
+    width: 51px;
+    height: 48px;
+    flex-shrink: 0;
+    /* Added for position */
+    position: absolute;
+    top: 18px;
+    left: 12px;
+}

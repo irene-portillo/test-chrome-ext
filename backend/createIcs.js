@@ -1,6 +1,7 @@
 // I was so confused on how to import an ics event so I looked online at 
 // resources and found this
 // SOURCE CREDIT: https://codepen.io/jessewarddev/pen/LYVqabP?editors=1111
+// Built off of this initial source code
 
 /**
 * Create and download a file on click
