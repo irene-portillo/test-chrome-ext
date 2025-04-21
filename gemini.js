@@ -11,7 +11,7 @@ import {GoogleGenAI} from './node_modules/@google/genai/dist/web/index.mjs';
 // Currently unsure how to use .env so will just stick to this for now
 
 // security issue i will have to fix later, this cant be public ! 
-const GEMINI_API_KEY = 'AIzaSyD4ep-RLPf8Ttmc1RNAC7A2n76XkWSCOfY'; 
+const GEMINI_API_KEY = '';  // testing out if it's still visible
 const ai = new GoogleGenAI({apiKey: GEMINI_API_KEY});
 
 // Prompt gemni for ICS json output when analyzing text
