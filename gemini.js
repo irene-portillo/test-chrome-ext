@@ -1,7 +1,7 @@
 
 /** Get parameters !
- * @ param {string} inputText  input text with event details
- * @ returns {Promise<Array<Object>>}  json array details output 
+ * @param {string} inputText  input text with event details
+ * @returns {Promise<Array<Object>>}  json array details output 
  */
 
 // Import GOOGLE GEMNI API 
